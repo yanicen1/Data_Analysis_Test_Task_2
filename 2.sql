@@ -6,8 +6,7 @@ WITH RECURSIVE Dates AS (
     FROM Dates
     WHERE DATE < '2018-12-31'
 )
--- Next, we join the Dates table with the OFFERS table and assigns 
--- an 'OFFER_ID' if the date falls within the offer period 
+-- Next, we join the Dates table with the OFFERS table and assign an 'OFFER_ID' if the date falls within the offer period 
 -- (between OFFER_START_DATE and OFFER_EXPIRATION_DATE) for each 'OFFER_ID'. 
 -- Finally, we get the count of 'OFFER_ID' for each date grouping by DATE.
 SELECT D.DATE,
