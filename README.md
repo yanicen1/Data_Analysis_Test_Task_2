@@ -38,4 +38,5 @@ The ACTIVE_CLIENTS table contains a monthly snapshot of bank clients who made an
 | 2018-02-01   | 6789998   |
 | 2018-03-01   | 67900001  |
 | ...          | ...        |
+
 <b>Task</b>: Display the number of active clients for each month; display the proportion of clients who "churned" in each month.
