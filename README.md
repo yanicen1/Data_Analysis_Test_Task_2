@@ -28,7 +28,7 @@ This repository contains the solution of the test task that sent by employer.
 ### Test Task
 You are invited to write SQL queries to solve the following 5 tasks. Each task provides a description of the data in the database and specifies what needs to be displayed in the result. Your script can contain any operations, including the creation of intermediate tables; the evaluation will be based on criteria such as the correctness of the result, conciseness, and code structure.
 
-<b>1. Task 1. Data Description</b>:
+<b>1. Data Description</b>:
 The ACTIVE_CLIENTS table contains a monthly snapshot of bank clients who made any transactions. Attributes: reporting month (report_month) and client identifier (client_id). We consider a client to have "churned" from the bank in month N if they are active (present in the ACTIVE_CLIENTS table) in month N and inactive in months N+1, N+2, N+3.
 | REPORT_MONTH | CLIENT_ID  |
 |--------------|------------|
@@ -40,3 +40,6 @@ The ACTIVE_CLIENTS table contains a monthly snapshot of bank clients who made an
 | ...          | ...        |
 
 <b>Task</b>: Display the number of active clients for each month; display the proportion of clients who "churned" in each month.
+
+<b>Data Description</b>: The OFFERS table contains information about credit offers for bank customers. Each offer has an identifier (offer_id), a start date (offer_start_date), and an expiration date (offer_expiration_date).
+<b>Task</b>: Display the number of active offers for each day in the year 2018.
