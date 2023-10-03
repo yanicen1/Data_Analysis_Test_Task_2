@@ -4,7 +4,7 @@ SELECT b.CLIENT_ID, b.BONUS_DATE, b.BONUS_CNT, m.MCC_CATEGORY
     FROM BONUS AS b
     JOIN MCC_CATEGORIES AS m
         ON b.MCC_CODE = m.MCC_CODE
-    WHERE m.MCC_CATEGORY IN ('??????????', '?????')
+    WHERE m.MCC_CATEGORY IN ('Авиабилеты', 'Отели')
 ),
 -- Summarizing bonuses over CLIENT_ID and BONUS_DATE
 table_2 AS (
