@@ -1,6 +1,6 @@
 # Test Task for Data Analyst Position 
 
-This repository contains the solution of the test task that sent by employer.
+This repository contains the solution of the test task that was sent by the employer.
 
 ### Job description:
 <b>Responsibilities</b>:
@@ -80,4 +80,5 @@ MCC_CODE | MCC_CATEGORY
 <b>5.</b>
 The sum(X) command sums all the values of column X, how do you multiply all the values of one column in SQL?
 
+## Solution
 Solutions are presented in [1_mysql.sql](https://github.com/yanicen1/Data_Analysis_Test_Task_2/blob/main/1_mysql.sql), [2_mysql.sql](https://github.com/yanicen1/Data_Analysis_Test_Task_2/blob/main/2_mysql.sql), [3_mysql.sql](https://github.com/yanicen1/Data_Analysis_Test_Task_2/blob/main/3_mysql.sql), [4_mysql.sql](https://github.com/yanicen1/Data_Analysis_Test_Task_2/blob/main/4_mysql.sql), and [5_mysql.sql](https://github.com/yanicen1/Data_Analysis_Test_Task_2/blob/main/5_mysql.sql) in MySQL format, as well as in the Jupyter Notebook named '[Solution.ipynb](https://github.com/yanicen1/Data_Analysis_Test_Task_2/blob/main/Solution.ipynb)' in SQLite format.
